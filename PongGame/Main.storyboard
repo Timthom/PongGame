@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwA-od-JEN">
+                                <rect key="frame" x="16" y="133" width="288" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="BYi-D7-OY4"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Score ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Computer">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=": 0">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Yr-YF-MbP">
+                                <rect key="frame" x="20" y="435" width="284" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="P1G-Rv-caN"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Your Score: 0">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="Verdana"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h51-14-lXb">
+                                <rect key="frame" x="137" y="269" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.95428516044257872" blue="0.0026928303106997786" alpha="0.54219890510000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="cDQ-ND-1w5"/>
+                                    <constraint firstAttribute="height" constant="50" id="tWg-Oi-JTh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="0.039808578284149077" blue="0.15192039517138856" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9h-88-10n"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Loose!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGc-cM-hAL">
+                                <rect key="frame" x="20" y="200" width="280" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="Np6-Xg-4el"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZGc-cM-hAL" firstAttribute="top" secondItem="gwA-od-JEN" secondAttribute="bottom" constant="18" id="6M1-gc-x6S"/>
+                            <constraint firstItem="gwA-od-JEN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8yU-Mi-fD8"/>
+                            <constraint firstItem="gwA-od-JEN" firstAttribute="trailing" secondItem="5Yr-YF-MbP" secondAttribute="trailing" id="C7e-3O-X7Z"/>
+                            <constraint firstItem="5Yr-YF-MbP" firstAttribute="centerX" secondItem="h51-14-lXb" secondAttribute="centerX" id="Gws-bj-Dsv"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5Yr-YF-MbP" secondAttribute="bottom" constant="84" id="RDr-OV-b05"/>
+                            <constraint firstItem="gwA-od-JEN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="113" id="TSa-VF-2qx"/>
+                            <constraint firstItem="h51-14-lXb" firstAttribute="top" secondItem="ZGc-cM-hAL" secondAttribute="bottom" constant="8" symbolic="YES" id="acP-xH-2aE"/>
+                            <constraint firstItem="5Yr-YF-MbP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dM7-RM-MnN"/>
+                            <constraint firstItem="ZGc-cM-hAL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="ewQ-aF-bKC"/>
+                            <constraint firstItem="ZGc-cM-hAL" firstAttribute="leading" secondItem="5Yr-YF-MbP" secondAttribute="leading" id="rtj-PA-K17"/>
+                            <constraint firstItem="gwA-od-JEN" firstAttribute="centerX" secondItem="ZGc-cM-hAL" secondAttribute="centerX" id="wKS-da-C6e"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="StartButton" destination="h51-14-lXb" id="H8c-Fp-5SS"/>
+                        <outlet property="WinOrLoose" destination="ZGc-cM-hAL" id="Krg-qf-gQW"/>
+                        <outlet property="scoreLabel" destination="5Yr-YF-MbP" id="kS4-MI-G08"/>
+                        <outlet property="scoreLabelComputer" destination="gwA-od-JEN" id="KQ1-Ad-BZ3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="284"/>
+        </scene>
+    </scenes>
+</document>

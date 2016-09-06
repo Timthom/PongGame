@@ -10,9 +10,17 @@
 		7FD3A5C21D7F6D4000BC46FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3A5C11D7F6D4000BC46FC /* main.m */; };
 		7FD3A5C51D7F6D4000BC46FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3A5C41D7F6D4000BC46FC /* AppDelegate.m */; };
 		7FD3A5C81D7F6D4000BC46FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3A5C71D7F6D4000BC46FC /* ViewController.m */; };
-		7FD3A5CB1D7F6D4000BC46FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5C91D7F6D4000BC46FC /* Main.storyboard */; };
 		7FD3A5CD1D7F6D4000BC46FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5CC1D7F6D4000BC46FC /* Assets.xcassets */; };
 		7FD3A5D01D7F6D4000BC46FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5CE1D7F6D4000BC46FC /* LaunchScreen.storyboard */; };
+		7FD3A5DC1D7F6D6F00BC46FC /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3A5DB1D7F6D6F00BC46FC /* BackgroundLayer.m */; };
+		7FD3A5E11D7F6DB600BC46FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5E01D7F6DB600BC46FC /* Main.storyboard */; };
+		7FD3A5E81D7F6E8A00BC46FC /* boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5E31D7F6E8A00BC46FC /* boing.wav */; };
+		7FD3A5E91D7F6E8A00BC46FC /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5E41D7F6E8A00BC46FC /* horn.wav */; };
+		7FD3A5EA1D7F6E8A00BC46FC /* hit_paddle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5E51D7F6E8A00BC46FC /* hit_paddle.wav */; };
+		7FD3A5EB1D7F6E8A00BC46FC /* hit_ground.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3A5E61D7F6E8A00BC46FC /* hit_ground.wav */; };
+		7FD3A5ED1D7F6EE200BC46FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3A5EC1D7F6EE200BC46FC /* AVFoundation.framework */; };
+		7FD3A5EF1D7F6EF900BC46FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3A5EE1D7F6EF900BC46FC /* QuartzCore.framework */; };
+		7FD3A5F11D7F6F0600BC46FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3A5F01D7F6F0600BC46FC /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +30,19 @@
 		7FD3A5C41D7F6D4000BC46FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FD3A5C61D7F6D4000BC46FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7FD3A5C71D7F6D4000BC46FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7FD3A5CA1D7F6D4000BC46FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FD3A5CC1D7F6D4000BC46FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD3A5CF1D7F6D4000BC46FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD3A5D11D7F6D4000BC46FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD3A5DA1D7F6D6F00BC46FC /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		7FD3A5DB1D7F6D6F00BC46FC /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
+		7FD3A5E01D7F6DB600BC46FC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7FD3A5E31D7F6E8A00BC46FC /* boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = boing.wav; path = ../../../../Downloads/boing.wav; sourceTree = "<group>"; };
+		7FD3A5E41D7F6E8A00BC46FC /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = horn.wav; path = ../../../../Downloads/horn.wav; sourceTree = "<group>"; };
+		7FD3A5E51D7F6E8A00BC46FC /* hit_paddle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit_paddle.wav; path = ../../../../Downloads/hit_paddle.wav; sourceTree = "<group>"; };
+		7FD3A5E61D7F6E8A00BC46FC /* hit_ground.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit_ground.wav; path = ../../../../Downloads/hit_ground.wav; sourceTree = "<group>"; };
+		7FD3A5EC1D7F6EE200BC46FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7FD3A5EE1D7F6EF900BC46FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7FD3A5F01D7F6F0600BC46FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD3A5F11D7F6F0600BC46FC /* Foundation.framework in Frameworks */,
+				7FD3A5EF1D7F6EF900BC46FC /* QuartzCore.framework in Frameworks */,
+				7FD3A5ED1D7F6EE200BC46FC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +62,9 @@
 		7FD3A5B41D7F6D3F00BC46FC = {
 			isa = PBXGroup;
 			children = (
+				7FD3A5F01D7F6F0600BC46FC /* Foundation.framework */,
+				7FD3A5EE1D7F6EF900BC46FC /* QuartzCore.framework */,
+				7FD3A5EC1D7F6EE200BC46FC /* AVFoundation.framework */,
 				7FD3A5BF1D7F6D4000BC46FC /* PongGame */,
 				7FD3A5BE1D7F6D4000BC46FC /* Products */,
 			);
@@ -58,11 +81,12 @@
 		7FD3A5BF1D7F6D4000BC46FC /* PongGame */ = {
 			isa = PBXGroup;
 			children = (
+				7FD3A5E71D7F6E8A00BC46FC /* Sound files */,
+				7FD3A5E01D7F6DB600BC46FC /* Main.storyboard */,
 				7FD3A5C31D7F6D4000BC46FC /* AppDelegate.h */,
 				7FD3A5C41D7F6D4000BC46FC /* AppDelegate.m */,
 				7FD3A5C61D7F6D4000BC46FC /* ViewController.h */,
 				7FD3A5C71D7F6D4000BC46FC /* ViewController.m */,
-				7FD3A5C91D7F6D4000BC46FC /* Main.storyboard */,
 				7FD3A5CC1D7F6D4000BC46FC /* Assets.xcassets */,
 				7FD3A5CE1D7F6D4000BC46FC /* LaunchScreen.storyboard */,
 				7FD3A5D11D7F6D4000BC46FC /* Info.plist */,
@@ -74,9 +98,23 @@
 		7FD3A5C01D7F6D4000BC46FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7FD3A5DA1D7F6D6F00BC46FC /* BackgroundLayer.h */,
+				7FD3A5DB1D7F6D6F00BC46FC /* BackgroundLayer.m */,
 				7FD3A5C11D7F6D4000BC46FC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD3A5E71D7F6E8A00BC46FC /* Sound files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD3A5E31D7F6E8A00BC46FC /* boing.wav */,
+				7FD3A5E41D7F6E8A00BC46FC /* horn.wav */,
+				7FD3A5E51D7F6E8A00BC46FC /* hit_paddle.wav */,
+				7FD3A5E61D7F6E8A00BC46FC /* hit_ground.wav */,
+			);
+			name = "Sound files";
+			path = "../../Labb:4/Labb:4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD3A5E91D7F6E8A00BC46FC /* horn.wav in Resources */,
+				7FD3A5E81D7F6E8A00BC46FC /* boing.wav in Resources */,
+				7FD3A5EA1D7F6E8A00BC46FC /* hit_paddle.wav in Resources */,
 				7FD3A5D01D7F6D4000BC46FC /* LaunchScreen.storyboard in Resources */,
 				7FD3A5CD1D7F6D4000BC46FC /* Assets.xcassets in Resources */,
-				7FD3A5CB1D7F6D4000BC46FC /* Main.storyboard in Resources */,
+				7FD3A5E11D7F6DB600BC46FC /* Main.storyboard in Resources */,
+				7FD3A5EB1D7F6E8A00BC46FC /* hit_ground.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD3A5C81D7F6D4000BC46FC /* ViewController.m in Sources */,
+				7FD3A5DC1D7F6D6F00BC46FC /* BackgroundLayer.m in Sources */,
 				7FD3A5C51D7F6D4000BC46FC /* AppDelegate.m in Sources */,
 				7FD3A5C21D7F6D4000BC46FC /* main.m in Sources */,
 			);
@@ -158,14 +201,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FD3A5C91D7F6D4000BC46FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FD3A5CA1D7F6D4000BC46FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7FD3A5CE1D7F6D4000BC46FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
